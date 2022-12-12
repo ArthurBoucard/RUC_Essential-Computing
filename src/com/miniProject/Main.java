@@ -68,7 +68,7 @@ public class Main {
             if (random == 1) {
                 placePiece(gameBoard, j, 'X');
             } else {
-                placePiece(gameBoard, j, '0');
+                placePiece(gameBoard, j, 'O');
             }
             // Check to switch from first column to last column
             if (i == ROWS - 1 && j == 0) {
