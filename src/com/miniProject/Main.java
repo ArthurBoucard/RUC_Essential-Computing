@@ -104,6 +104,11 @@ public class Main {
                         gameBoard[i][j] == gameBoard[i][j + 2] &&
                         gameBoard[i][j] == gameBoard[i][j + 3] &&
                         gameBoard[i][j] == gameBoard[i][j + 4]) {
+                    gameBoard[i][j] = '#';
+                    gameBoard[i][j + 1] = '#';
+                    gameBoard[i][j + 2] = '#';
+                    gameBoard[i][j + 3] = '#';
+                    gameBoard[i][j + 4] = '#';
                     return true;
                 }
             }
@@ -117,6 +122,11 @@ public class Main {
                         gameBoard[i][j] == gameBoard[i + 2][j] &&
                         gameBoard[i][j] == gameBoard[i + 3][j] &&
                         gameBoard[i][j] == gameBoard[i + 4][j]) {
+                    gameBoard[i][j] = '#';
+                    gameBoard[i + 1][j] = '#';
+                    gameBoard[i + 2][j] = '#';
+                    gameBoard[i + 3][j] = '#';
+                    gameBoard[i + 4][j] = '#';
                     return true;
                 }
             }
@@ -130,6 +140,11 @@ public class Main {
                         gameBoard[i][j] == gameBoard[i + 2][j + 2] &&
                         gameBoard[i][j] == gameBoard[i + 3][j + 3] &&
                         gameBoard[i][j] == gameBoard[i + 4][j + 4]) {
+                    gameBoard[i][j] = '#';
+                    gameBoard[i + 1][j + 1] = '#';
+                    gameBoard[i + 2][j + 2] = '#';
+                    gameBoard[i + 3][j + 3] = '#';
+                    gameBoard[i + 4][j + 4] = '#';
                     return true;
                 }
             }
@@ -143,6 +158,11 @@ public class Main {
                         gameBoard[i][j] == gameBoard[i - 2][j + 2] &&
                         gameBoard[i][j] == gameBoard[i - 3][j + 3] &&
                         gameBoard[i][j] == gameBoard[i - 4][j + 4]) {
+                    gameBoard[i][j] = '#';
+                    gameBoard[i - 1][j + 1] = '#';
+                    gameBoard[i - 2][j + 2] = '#';
+                    gameBoard[i - 3][j + 3] = '#';
+                    gameBoard[i - 4][j + 4] = '#';
                     return true;
                 }
             }
